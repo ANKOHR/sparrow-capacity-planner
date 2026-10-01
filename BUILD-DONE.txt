@@ -1,0 +1,9 @@
+Sparrow Capacity Planner local build complete, 2026-10-01.
+Test count: 37 passed.
+Local implementation commit: 74f0a98b10ec4ac600d694a17f79f8b733472bba
+This hash identifies the tested implementation and evidence. A following documentation-only commit records this file.
+Measured installed CLI demo: 0.746055 seconds. JSON report: 0.225003 seconds.
+
+Built a local, deterministic Python scp CLI with fixtures, run, report, capacity and accept commands; pure integer-minute allocation; labelled 200-record synthetic fixtures and independent ground truth; a hand-written five-record example; JSON and Markdown reports with provenance, hypothetical labels and input hashes; named input, schema and atomic-write errors; and 37 passing tests covering exact arithmetic, all decisions, determinism, adversarial inputs and failure modes. README, EVIDENCE.md, LESSONS.md and VERDICT.md document the policy, limits and two-week real-use improvement hook. Provisional verdict: maintain as portfolio evidence; the final verdict awaits real-use evidence. No network calls or publishing were performed.
+
+Windows note: the Python user Scripts directory must precede OpenSSH on PATH for the bare scp command. python -m sparrow_capacity_planner.cli is an equivalent invocation without that name collision.
