@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "id": "A",
+      "minutes": 60,
+      "name": "Synthetic existing order",
+      "priority": 0,
+      "recorded_on": "2026-09-30",
+      "status": "committed"
+    },
+    {
+      "id": "B",
+      "minutes": 30,
+      "name": "Synthetic existing support",
+      "priority": 0,
+      "recorded_on": "2026-09-30",
+      "status": "committed"
+    },
+    {
+      "id": "C",
+      "minutes": 120,
+      "name": "Synthetic proposal one",
+      "priority": 0,
+      "recorded_on": "2026-09-30",
+      "status": "proposed"
+    },
+    {
+      "id": "D",
+      "minutes": 60,
+      "name": "Synthetic proposal two",
+      "priority": 1,
+      "recorded_on": "2026-09-30",
+      "status": "proposed"
+    },
+    {
+      "id": "E",
+      "minutes": 30,
+      "name": "Synthetic proposal three",
+      "priority": 2,
+      "recorded_on": "2026-09-30",
+      "status": "proposed"
+    }
+  ],
+  "source": "synthetic_fixture",
+  "synthetic": true
+}

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparrow-capacity-planner"
+version = "0.1.0"
+description = "Deterministic capacity scenarios from explicit inputs"
+requires-python = ">=3.10"
+
+[project.scripts]
+scp = "sparrow_capacity_planner.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
